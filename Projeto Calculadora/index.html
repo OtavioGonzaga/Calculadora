@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA</h1>
+    </header>
+    <main>
+        <div class="calculadora">
+            <div id="visor">
+                <p></p>
+            </div>
+            <input type="button" class="sinal" id="c" value="C" onclick="Limpar()" />
+            <input type="button" class="sinal"id="/" value="÷" style="font-size: 150%;"/>
+            <input type="button" class="sinal" value="X" id="*" />
+            <input type="button" class="sinal" value="<=" id="del" />
+            <input type="button" value="7" id="7" />
+            <input type="button" value="8" id="8" />
+            <input type="button" value="9" id="9" />
+            <input type="button" class="sinal" value="-" id="-" style="font-size: 150%;"/>
+            <input type="button" value="4" id="4" />
+            <input type="button" value="5" id="5" />
+            <input type="button" value="6" id="6" />
+            <input type="button" class="sinal" value="+" id="+" onclick="Somar()"/>
+            <input type="button" value="1" id="1" />
+            <input type="button" value="2" id="2" />
+            <input type="button" value="3" id="3" />
+            <input type="button" class="sinal" value="=" id="igual" style="font-size: 150%;"/>
+            <input type="button" value="%" id="%" />
+            <input type="button" value="0" id="0" />
+            <input type="button" value="," id="," style="font-size: 150%;"/>
+        </div>
+    </main>
+</body>
+<script src="script/calculadora.js"></script>
+</html>
